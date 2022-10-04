@@ -1,0 +1,11 @@
+let spaghetti = 400;
+let guanciale = 250;
+let eggYolks = 6;
+let Pecorino = 50;
+let blackPeper = 4;
+let hotWater = 2;
+let firstStep = eggYolks + Pecorino;
+let secondStep = 0.5 * blackPeper + firstStep;
+let thirdStep = spaghetti + hotWater;
+let finalStep = guanciale + secondStep + thirdStep + 0.5 * blackPeper;
+console.log("Total weight of the dish is " + finalStep + "g");
